@@ -1,0 +1,22 @@
+{
+    "name": "ecommerce/php7",
+    "authors": [
+        {
+            "name": "Hermínio Machado",
+            "email": "suporte@hcode.com.br"
+        }
+    ],
+
+    "require": {
+        "smarty/smarty": "~3.1"
+    },
+
+    "config": {
+        "vendor-dir" : "lib/"
+    },
+
+    "classmap" : ["model/"]
+
+
+
+}
