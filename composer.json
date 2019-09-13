@@ -1,3 +1,4 @@
+
 {
     "name": "ecommerce/php7",
     "authors": [
@@ -16,8 +17,9 @@
         "vendor-dir" : "lib/"
     },
 
-    "classmap" : ["model/"]
-
+    "autoload" : {
+          "classmap" : ["model/"]
+    }    
 
 
 }

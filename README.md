@@ -55,5 +55,7 @@ Criando o projeto
 		
 	--------------------------------------------------------------------------------
 
+	https://packagist.org
 	
+	https://getcomposer.org/
 		
