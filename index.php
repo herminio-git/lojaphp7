@@ -9,6 +9,8 @@
     // valores para o template
     $smarty->assign('NOME', 'Hermínio Machado');
 
+    echo Rotas::pag_Carrinho();
+
     $smarty->display('index.tpl');
 
 
