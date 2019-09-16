@@ -24,7 +24,17 @@
         static function pag_Carrinho(){
 
             return self::get_SiteHOME() . '/carrinho';
-        }        
+        }  
+        // 
+        static function pag_Contato(){
+
+            return self::get_SiteHOME() . '/contatos';
+        }  
+        // 
+        static function pag_MinhaConta(){
+
+            return self::get_SiteHOME() . '/minhaconta';
+        }                        
 
         // 
         static function get_Pagina(){
