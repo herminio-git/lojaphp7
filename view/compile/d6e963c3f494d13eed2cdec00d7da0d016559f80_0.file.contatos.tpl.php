@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-09-16 21:59:34
+/* Smarty version 3.1.33, created on 2019-09-17 15:36:11
   from 'C:\xampp\htdocs\qcursos\lojaphp7\view\contatos.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5d7fe9a60e25d1_79619137',
+  'unifunc' => 'content_5d80e14b414cb8_50626428',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'd6e963c3f494d13eed2cdec00d7da0d016559f80' => 
     array (
       0 => 'C:\\xampp\\htdocs\\qcursos\\lojaphp7\\view\\contatos.tpl',
-      1 => 1568663966,
+      1 => 1568727364,
       2 => 'file',
     ),
   ),
@@ -20,8 +20,9 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5d7fe9a60e25d1_79619137 (Smarty_Internal_Template $_smarty_tpl) {
-?><link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+function content_5d80e14b414cb8_50626428 (Smarty_Internal_Template $_smarty_tpl) {
+?>
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <?php echo '<script'; ?>
  src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"><?php echo '</script'; ?>
 >
@@ -33,7 +34,7 @@ function content_5d7fe9a60e25d1_79619137 (Smarty_Internal_Template $_smarty_tpl)
 <div class="container">
     <div class="row">
         
-        <form class="form-horizontal" id="frmcontatoazul">
+        <form class="form-horizontal" id="frmcontatoazul" action="envio">
         <fieldset>
         
         <!-- Form Name -->
