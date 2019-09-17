@@ -15,7 +15,7 @@
     $smarty->assign('PAG_CARRINHO', Rotas::pag_Carrinho());
     $smarty->assign('PAG_CONTATO', Rotas::pag_Contato());
     $smarty->assign('PAG_MINHACONTA', Rotas::pag_MinhaConta());
-    // $smarty->assign('TITULO_SITE', Config::SITE_NOME);
+    $smarty->assign('TITULO_SITE', Config::SITE_NOME);
     
     // echo Rotas::get_SiteTEMA() . '<br>';
     

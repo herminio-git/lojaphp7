@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-09-15 23:22:51
+/* Smarty version 3.1.33, created on 2019-09-16 22:19:44
   from 'C:\xampp\htdocs\qcursos\lojaphp7\view\index.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5d7eabab613495_59163104',
+  'unifunc' => 'content_5d7fee601fc713_25499037',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'da02c1498e341b20cf314d26632fff5618b0aa4e' => 
     array (
       0 => 'C:\\xampp\\htdocs\\qcursos\\lojaphp7\\view\\index.tpl',
-      1 => 1568582473,
+      1 => 1568665164,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5d7eabab613495_59163104 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5d7fee601fc713_25499037 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 
 <html>
@@ -46,9 +46,11 @@ function content_5d7eabab613495_59163104 (Smarty_Internal_Template $_smarty_tpl)
  src="<?php echo $_smarty_tpl->tpl_vars['GET_TEMA']->value;?>
 /tema/contatos/contatos.js" type="text/javascript"><?php echo '</script'; ?>
 >
+        
         <!-- meu aquivo pessoal de CSS-->
         <link href="<?php echo $_smarty_tpl->tpl_vars['GET_TEMA']->value;?>
 /tema/css/tema.css" rel="stylesheet" type="text/css"/>
+        
      <!-- HTML5 shim e Respond.js para suporte no IE8 de elementos HTML5 e media queries -->
     <!-- ALERTA: Respond.js não funciona se você visualizar uma página file:// -->
     <!--[if lt IE 9]>

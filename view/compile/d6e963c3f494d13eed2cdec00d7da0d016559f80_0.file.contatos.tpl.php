@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-09-16 14:27:05
+/* Smarty version 3.1.33, created on 2019-09-16 21:59:34
   from 'C:\xampp\htdocs\qcursos\lojaphp7\view\contatos.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5d7f7f99c0f1c3_99561921',
+  'unifunc' => 'content_5d7fe9a60e25d1_79619137',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'd6e963c3f494d13eed2cdec00d7da0d016559f80' => 
     array (
       0 => 'C:\\xampp\\htdocs\\qcursos\\lojaphp7\\view\\contatos.tpl',
-      1 => 1568636822,
+      1 => 1568663966,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5d7f7f99c0f1c3_99561921 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5d7fe9a60e25d1_79619137 (Smarty_Internal_Template $_smarty_tpl) {
 ?><link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <?php echo '<script'; ?>
  src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"><?php echo '</script'; ?>
@@ -57,20 +57,11 @@ function content_5d7f7f99c0f1c3_99561921 (Smarty_Internal_Template $_smarty_tpl)
           </div>
         </div>
         
-        <!-- Text input-->
-        <div class="form-group">
-          <label class="col-md-4 control-label" for="txtinputassunto">Assunto</label>  
-          <div class="col-md-8">
-          <input id="txtinputassunto" name="txtinputassunto" placeholder="Informe do que se trata" class="form-control input-md" required="required" type="text" />
-          <span class="help-block">help</span>  
-          </div>
-        </div>
-        
         <!-- Textarea -->
         <div class="form-group">
           <label class="col-md-4 control-label" for="txtinputarea">Mensagem</label>
           <div class="col-md-8">                     
-            <textarea class="form-control" id="txtinputarea" rows="6" name="txtinputarea" placeholder="Escreva sua opinião, crítica ou sugestão para o site"></textarea>
+            <textarea class="form-control" id="txtinputarea" rows="6" name="txtinputarea" placeholder="Sua mensagem aqui..."></textarea>
           </div>
         </div>
         

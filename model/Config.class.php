@@ -13,6 +13,7 @@
               BD_USER = "root",
               BD_SENHA = "",
               BD_BANCO = "lojaphp7";
+              BD_PREFIX = "";
 
         // INFORMAÇÕES PARA PHP MAILLER
         const EMAIL_HOST = "smtp.gmail.com";
