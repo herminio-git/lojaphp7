@@ -17,7 +17,18 @@
     $smarty->assign('PAG_MINHACONTA', Rotas::pag_MinhaConta());
     $smarty->assign('TITULO_SITE', Config::SITE_NOME);
     
-    $dados = new Conexao();
+    // Testando a conexão
+    // $dados = new Conexao();
+    // $sql = "SELECT * FROM categorias";
+    // $dados->ExecuteSQL($sql);
+    // echo $dados->TotalDados();
+
+
+    // $lista = $dados->ListarDados();
+
+    // echo '<pre>';
+    // var_dump($lista);
+    // echo '</pre>';
 
     // echo Rotas::get_SiteTEMA() . '<br>';
     
