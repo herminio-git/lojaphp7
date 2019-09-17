@@ -17,6 +17,8 @@
     $smarty->assign('PAG_MINHACONTA', Rotas::pag_MinhaConta());
     $smarty->assign('TITULO_SITE', Config::SITE_NOME);
     
+    $dados = new Conexao();
+
     // echo Rotas::get_SiteTEMA() . '<br>';
     
     
