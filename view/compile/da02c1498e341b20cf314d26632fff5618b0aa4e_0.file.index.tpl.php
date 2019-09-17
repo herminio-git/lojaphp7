@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-09-16 22:19:44
+/* Smarty version 3.1.33, created on 2019-09-17 22:00:17
   from 'C:\xampp\htdocs\qcursos\lojaphp7\view\index.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5d7fee601fc713_25499037',
+  'unifunc' => 'content_5d813b51ea0314_15547380',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'da02c1498e341b20cf314d26632fff5618b0aa4e' => 
     array (
       0 => 'C:\\xampp\\htdocs\\qcursos\\lojaphp7\\view\\index.tpl',
-      1 => 1568665164,
+      1 => 1568750411,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5d7fee601fc713_25499037 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5d813b51ea0314_15547380 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 
 <html>

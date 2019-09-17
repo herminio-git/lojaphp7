@@ -4,6 +4,8 @@
 
         private $host, $user, $senha, $banco;
 
+        protected $obj, $itens = array(), $prefix;
+
         function __construct(){
 
             $this->host = self::BD_HOST;
@@ -67,7 +69,7 @@
 
         function GetItens(){
 
-            // return $this->obj->itens;
+            return $this->itens;
 
         }
 
