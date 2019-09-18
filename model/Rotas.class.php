@@ -34,9 +34,27 @@
         static function pag_MinhaConta(){
 
             return self::get_SiteHOME() . '/minhaconta';
-        }                        
+        }     
+        //
+        static function get_ImagePasta(){
 
+           return 'media/img/'; 
+
+        }
+        //
+        static function get_ImageURL(){
+
+            return self::get_SiteHOME(). '/' . self::get_ImagePasta();
+
+        }
         // 
+        static function ImageLink($img, $largura, $altura){
+
+            $imagem = self::get_ImageURL(). "thumb.php?src={$img}&w={$largura}&h={$altura}&zc=1";
+
+            return $imagem;
+        }
+        //
         static function get_Pagina(){
             if(isset($_GET['pag'])){
 
