@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-09-18 13:09:52
+/* Smarty version 3.1.33, created on 2019-09-18 14:59:08
   from 'C:\xampp\htdocs\qcursos\lojaphp7\view\produtos.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5d821080020320_31145524',
+  'unifunc' => 'content_5d822a1c271e88_71307797',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '30108a394a5b507339f7dc80ad4b2691d5e05ba6' => 
     array (
       0 => 'C:\\xampp\\htdocs\\qcursos\\lojaphp7\\view\\produtos.tpl',
-      1 => 1568804988,
+      1 => 1568811263,
       2 => 'file',
     ),
   ),
@@ -20,11 +20,11 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5d821080020320_31145524 (Smarty_Internal_Template $_smarty_tpl) {
-?><h3>Lista de produtos</h3>
+function content_5d822a1c271e88_71307797 (Smarty_Internal_Template $_smarty_tpl) {
+?>
+<h3>Lista de produtos</h3>
 <hr>
 
- 
     <section id="pagincao" class="row">
        <center>
           PAGINAS

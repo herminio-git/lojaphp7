@@ -1,7 +1,7 @@
+
 <h3>Lista de produtos</h3>
 <hr>
 
- 
     <section id="pagincao" class="row">
        <center>
           PAGINAS
